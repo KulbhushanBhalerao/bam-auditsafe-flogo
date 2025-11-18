@@ -1,0 +1,19 @@
+{
+  "policy": "audit-safe-policy",
+  "phase_definition": {
+    "min_age": "0ms",
+    "actions": {
+      "set_priority": {
+        "priority": 100
+      },
+      "rollover": {
+        "max_age": "7d",
+        "max_primary_shard_docs": 200000000,
+        "min_docs": 1,
+        "max_primary_shard_size": "50gb"
+      }
+    }
+  },
+  "version": 1,
+  "modified_date_in_millis": 1762980792573
+}

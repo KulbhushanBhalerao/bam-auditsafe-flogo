@@ -1,0 +1,33 @@
+{
+  "order_id": "ORD-20251113-5847",
+  "customer_id": "CUST-98765",
+  "customer_name": "John Smith",
+  "order_date": "2025-11-13T14:32:15.123Z",
+  "total_amount": 1249.99,
+  "currency": "USD",
+  "items": [
+    {
+      "product_id": "PROD-001",
+      "product_name": "Laptop Computer",
+      "quantity": 1,
+      "unit_price": 999.99
+    },
+    {
+      "product_id": "PROD-042",
+      "product_name": "Wireless Mouse",
+      "quantity": 2,
+      "unit_price": 125
+    }
+  ],
+  "shipping_address": {
+    "street": "123 Main Street",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94102",
+    "country": "USA"
+  },
+  "payment_method": "CREDIT_CARD",
+  "payment_status": "AUTHORIZED",
+  "user_id": "USR-admin-001",
+  "ip_address": "192.168.1.105"
+}

@@ -1,0 +1,11 @@
+{
+  "audit_event": "ORDER_DELIVERED",
+  "business_process_name": "Order Management System",
+  "event_description": "Order has been successfully delivered to the customer",
+  "event_destination": "audit-safe-kafka-topic",
+  "event_source": "order-service-api",
+  "event_status": "COMPLETED",
+  "event_timestamp": "2025-11-15T16:45:33.456Z",
+  "payload": "{\"order_id\":\"ORD-20251113-5847\",\"customer_id\":\"CUST-98765\",\"customer_name\":\"John Smith\",\"order_date\":\"2025-11-13T14:32:15.123Z\",\"delivery_date\":\"2025-11-15T16:42:18.234Z\",\"total_amount\":1249.99,\"currency\":\"USD\",\"items\":[{\"product_id\":\"PROD-001\",\"product_name\":\"Laptop Computer\",\"quantity\":1,\"unit_price\":999.99},{\"product_id\":\"PROD-042\",\"product_name\":\"Wireless Mouse\",\"quantity\":2,\"unit_price\":125.00}],\"shipping_address\":{\"street\":\"123 Main Street\",\"city\":\"San Francisco\",\"state\":\"CA\",\"zip\":\"94102\",\"country\":\"USA\"},\"payment_method\":\"CREDIT_CARD\",\"payment_status\":\"CAPTURED\",\"delivery_status\":\"DELIVERED\",\"delivery_signature\":\"J.Smith\",\"carrier\":\"FedEx\",\"tracking_number\":\"FDX789456123\",\"delivered_by\":\"DRV-SF-028\",\"delivery_notes\":\"Left at front door as requested\"}",
+  "transaction_id": "TXN-20251113-143218-7890"
+}
