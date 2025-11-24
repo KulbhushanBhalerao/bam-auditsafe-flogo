@@ -1,0 +1,11 @@
+{
+  "audit_event": "SUB_ACTIVATED",
+  "business_process_name": "Mediahuis Subscription Management",
+  "event_description": "Customer subscription activated and access provisioned to publications",
+  "event_destination": "audit-safe-kafka-topic",
+  "event_source": "subscription-service-api",
+  "event_status": "SUCCESS",
+  "event_timestamp": "2025-11-20T10:32:18.234Z",
+  "payload": "{\"subscription_id\":\"SUB-20251120-7654\",\"customer_id\":\"CUST-MH-89012\",\"customer_name\":\"Lucas Van Der Berg\",\"customer_email\":\"lucas.vanderberg@email.nl\",\"subscription_date\":\"2025-11-20T10:30:45.789Z\",\"activation_date\":\"2025-11-20T10:32:18.123Z\",\"subscription_type\":\"DIGITAL_PREMIUM\",\"publications\":[{\"publication_id\":\"PUB-001\",\"publication_name\":\"De Standaard\",\"access_level\":\"FULL\",\"access_granted\":true},{\"publication_id\":\"PUB-005\",\"publication_name\":\"Het Nieuwsblad\",\"access_level\":\"FULL\",\"access_granted\":true}],\"billing_cycle\":\"MONTHLY\",\"subscription_amount\":29.99,\"currency\":\"EUR\",\"payment_method\":\"SEPA_DIRECT_DEBIT\",\"payment_status\":\"CAPTURED\",\"activation_status\":\"ACTIVE\",\"digital_entitlements\":[\"WEB_ACCESS\",\"MOBILE_APP\",\"TABLET_APP\",\"ARCHIVE_ACCESS\"],\"start_date\":\"2025-11-20T00:00:00.000Z\",\"end_date\":\"2025-12-20T23:59:59.999Z\",\"user_id\":\"USR-provisioning-011\",\"ip_address\":\"10.20.30.118\"}",
+  "transaction_id": "TXN-20251120-103045-5678"
+}

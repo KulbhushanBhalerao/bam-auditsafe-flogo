@@ -1,0 +1,11 @@
+{
+  "audit_event": "PATROL_DISPATCHED",
+  "business_process_name": "AA UK Roadside Assistance",
+  "event_description": "AA patrol dispatched and en route to breakdown location",
+  "event_destination": "audit-safe-kafka-topic",
+  "event_source": "roadside-assistance-api",
+  "event_status": "IN_PROGRESS",
+  "event_timestamp": "2025-11-24T08:47:23.567Z",
+  "payload": "{\"assistance_id\":\"ASSIST-20251124-3421\",\"member_id\":\"MEM-UK-78945\",\"member_name\":\"James Thompson\",\"member_phone\":\"+44 7700 900123\",\"membership_tier\":\"PREMIUM\",\"request_date\":\"2025-11-24T08:45:12.345Z\",\"dispatch_time\":\"2025-11-24T08:47:23.567Z\",\"incident_type\":\"BREAKDOWN\",\"issue_category\":\"FLAT_TYRE\",\"vehicle_details\":{\"registration\":\"AB12 CDE\",\"make\":\"Ford\",\"model\":\"Focus\",\"year\":2020,\"color\":\"Blue\"},\"breakdown_location\":{\"address\":\"M25 Junction 15, Northbound\",\"latitude\":51.6543,\"longitude\":-0.3421,\"location_type\":\"MOTORWAY\"},\"patrol_details\":{\"patrol_id\":\"PATROL-NW-042\",\"patrol_name\":\"Mike Richardson\",\"vehicle_registration\":\"AA05 XYZ\",\"current_latitude\":51.6123,\"current_longitude\":-0.3890,\"distance_km\":4.2},\"estimated_arrival_time\":\"2025-11-24T09:05:00.000Z\",\"dispatch_status\":\"EN_ROUTE\",\"user_id\":\"USR-dispatch-system\",\"ip_address\":\"10.50.60.105\"}",
+  "transaction_id": "TXN-20251124-084512-9876"
+}

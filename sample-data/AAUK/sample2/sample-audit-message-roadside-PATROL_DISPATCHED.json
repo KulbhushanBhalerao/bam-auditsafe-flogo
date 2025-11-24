@@ -1,0 +1,11 @@
+{
+  "audit_event": "PATROL_DISPATCHED",
+  "business_process_name": "AA UK Roadside Assistance",
+  "event_description": "AA patrol dispatched and en route to breakdown location",
+  "event_destination": "audit-safe-kafka-topic",
+  "event_source": "roadside-assistance-api",
+  "event_status": "IN_PROGRESS",
+  "event_timestamp": "2025-11-24T14:24:18.234Z",
+  "payload": "{\"assistance_id\":\"ASSIST-20251124-5892\",\"member_id\":\"MEM-UK-34567\",\"member_name\":\"Sarah Mitchell\",\"member_phone\":\"+44 7700 900567\",\"membership_tier\":\"STANDARD\",\"request_date\":\"2025-11-24T14:22:35.678Z\",\"dispatch_time\":\"2025-11-24T14:24:18.234Z\",\"incident_type\":\"BREAKDOWN\",\"issue_category\":\"BATTERY_FAILURE\",\"vehicle_details\":{\"registration\":\"LM19 XYZ\",\"make\":\"Volkswagen\",\"model\":\"Golf\",\"year\":2019,\"color\":\"Silver\"},\"breakdown_location\":{\"address\":\"Tesco Car Park, High Street, Reading\",\"latitude\":51.4543,\"longitude\":-0.9732,\"location_type\":\"CAR_PARK\"},\"patrol_details\":{\"patrol_id\":\"PATROL-SE-089\",\"patrol_name\":\"David Hughes\",\"vehicle_registration\":\"AA12 RST\",\"current_latitude\":51.4321,\"current_longitude\":-0.9512,\"distance_km\":3.8},\"estimated_arrival_time\":\"2025-11-24T14:50:00.000Z\",\"dispatch_status\":\"EN_ROUTE\",\"user_id\":\"USR-dispatch-system\",\"ip_address\":\"10.50.60.118\"}",
+  "transaction_id": "TXN-20251124-142235-4521"
+}

@@ -1,0 +1,11 @@
+{
+  "audit_event": "SUB_RENEWED",
+  "business_process_name": "Mediahuis Subscription Management",
+  "event_description": "Customer subscription automatically renewed for next billing period",
+  "event_destination": "audit-safe-kafka-topic",
+  "event_source": "subscription-service-api",
+  "event_status": "SUCCESS",
+  "event_timestamp": "2025-12-20T00:06:32.567Z",
+  "payload": "{\"subscription_id\":\"SUB-20251120-7654\",\"customer_id\":\"CUST-MH-89012\",\"customer_name\":\"Lucas Van Der Berg\",\"customer_email\":\"lucas.vanderberg@email.nl\",\"original_subscription_date\":\"2025-11-20T10:30:45.789Z\",\"renewal_date\":\"2025-12-20T00:06:32.567Z\",\"subscription_type\":\"DIGITAL_PREMIUM\",\"publications\":[{\"publication_id\":\"PUB-001\",\"publication_name\":\"De Standaard\",\"access_level\":\"FULL\"},{\"publication_id\":\"PUB-005\",\"publication_name\":\"Het Nieuwsblad\",\"access_level\":\"FULL\"}],\"billing_cycle\":\"MONTHLY\",\"subscription_amount\":29.99,\"currency\":\"EUR\",\"payment_method\":\"SEPA_DIRECT_DEBIT\",\"payment_status\":\"CAPTURED\",\"activation_status\":\"ACTIVE\",\"renewal_count\":1,\"previous_end_date\":\"2025-12-20T23:59:59.999Z\",\"new_start_date\":\"2025-12-21T00:00:00.000Z\",\"new_end_date\":\"2026-01-20T23:59:59.999Z\",\"auto_renewal\":true,\"user_id\":\"USR-billing-system\",\"ip_address\":\"10.20.30.221\"}",
+  "transaction_id": "TXN-20251120-103045-5678"
+}

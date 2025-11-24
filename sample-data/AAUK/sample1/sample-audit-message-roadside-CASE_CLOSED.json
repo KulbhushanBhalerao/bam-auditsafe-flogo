@@ -1,0 +1,11 @@
+{
+  "audit_event": "CASE_CLOSED",
+  "business_process_name": "AA UK Roadside Assistance",
+  "event_description": "Roadside assistance case closed and member follow-up completed",
+  "event_destination": "audit-safe-kafka-topic",
+  "event_source": "roadside-assistance-api",
+  "event_status": "COMPLETED",
+  "event_timestamp": "2025-11-24T10:15:30.456Z",
+  "payload": "{\"assistance_id\":\"ASSIST-20251124-3421\",\"member_id\":\"MEM-UK-78945\",\"member_name\":\"James Thompson\",\"member_phone\":\"+44 7700 900123\",\"membership_tier\":\"PREMIUM\",\"request_date\":\"2025-11-24T08:45:12.345Z\",\"case_closed_time\":\"2025-11-24T10:15:30.456Z\",\"incident_type\":\"BREAKDOWN\",\"issue_category\":\"FLAT_TYRE\",\"vehicle_details\":{\"registration\":\"AB12 CDE\",\"make\":\"Ford\",\"model\":\"Focus\",\"year\":2020,\"color\":\"Blue\"},\"breakdown_location\":{\"address\":\"M25 Junction 15, Northbound\",\"latitude\":51.6543,\"longitude\":-0.3421,\"location_type\":\"MOTORWAY\"},\"patrol_details\":{\"patrol_id\":\"PATROL-NW-042\",\"patrol_name\":\"Mike Richardson\"},\"service_summary\":{\"action_taken\":\"TYRE_REPLACED\",\"service_duration_minutes\":25,\"total_case_duration_minutes\":90,\"vehicle_recovered\":false,\"roadside_fix\":true},\"follow_up\":{\"member_contacted\":true,\"feedback_received\":true,\"rating\":5,\"comments\":\"Excellent service, very quick response\"},\"case_status\":\"CLOSED\",\"claim_amount\":0.00,\"covered_by_membership\":true,\"user_id\":\"USR-case-management-008\",\"ip_address\":\"10.50.60.112\"}",
+  "transaction_id": "TXN-20251124-084512-9876"
+}

@@ -1,0 +1,11 @@
+{
+  "audit_event": "SERVICE_COMPLETED",
+  "business_process_name": "AA UK Roadside Assistance",
+  "event_description": "Roadside assistance service completed successfully, vehicle operational",
+  "event_destination": "audit-safe-kafka-topic",
+  "event_source": "roadside-assistance-api",
+  "event_status": "COMPLETED",
+  "event_timestamp": "2025-11-24T09:28:15.789Z",
+  "payload": "{\"assistance_id\":\"ASSIST-20251124-3421\",\"member_id\":\"MEM-UK-78945\",\"member_name\":\"James Thompson\",\"member_phone\":\"+44 7700 900123\",\"membership_tier\":\"PREMIUM\",\"request_date\":\"2025-11-24T08:45:12.345Z\",\"completion_time\":\"2025-11-24T09:28:15.789Z\",\"incident_type\":\"BREAKDOWN\",\"issue_category\":\"FLAT_TYRE\",\"vehicle_details\":{\"registration\":\"AB12 CDE\",\"make\":\"Ford\",\"model\":\"Focus\",\"year\":2020,\"color\":\"Blue\"},\"breakdown_location\":{\"address\":\"M25 Junction 15, Northbound\",\"latitude\":51.6543,\"longitude\":-0.3421,\"location_type\":\"MOTORWAY\"},\"patrol_details\":{\"patrol_id\":\"PATROL-NW-042\",\"patrol_name\":\"Mike Richardson\",\"vehicle_registration\":\"AA05 XYZ\"},\"service_details\":{\"action_taken\":\"TYRE_REPLACED\",\"parts_used\":[\"SPARE_TYRE\"],\"service_duration_minutes\":25,\"vehicle_driveable\":true},\"service_status\":\"COMPLETED\",\"total_duration_minutes\":43,\"member_satisfaction\":\"EXCELLENT\",\"next_recommended_action\":\"Visit local garage for permanent tyre replacement\",\"user_id\":\"PATROL-NW-042\",\"ip_address\":\"172.16.10.55\"}",
+  "transaction_id": "TXN-20251124-084512-9876"
+}

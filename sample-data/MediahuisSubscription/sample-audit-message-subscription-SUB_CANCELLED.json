@@ -1,0 +1,11 @@
+{
+  "audit_event": "SUB_CANCELLED",
+  "business_process_name": "Mediahuis Subscription Management",
+  "event_description": "Customer subscription cancelled by customer request",
+  "event_destination": "audit-safe-kafka-topic",
+  "event_source": "subscription-service-api",
+  "event_status": "COMPLETED",
+  "event_timestamp": "2026-02-28T11:18:42.345Z",
+  "payload": "{\"subscription_id\":\"SUB-20251120-7654\",\"customer_id\":\"CUST-MH-89012\",\"customer_name\":\"Lucas Van Der Berg\",\"customer_email\":\"lucas.vanderberg@email.nl\",\"original_subscription_date\":\"2025-11-20T10:30:45.789Z\",\"cancellation_date\":\"2026-02-28T11:18:42.345Z\",\"subscription_type\":\"DIGITAL_PREMIUM\",\"publications\":[{\"publication_id\":\"PUB-001\",\"publication_name\":\"De Standaard\",\"access_level\":\"FULL\"},{\"publication_id\":\"PUB-005\",\"publication_name\":\"Het Nieuwsblad\",\"access_level\":\"FULL\"}],\"billing_cycle\":\"MONTHLY\",\"subscription_amount\":29.99,\"currency\":\"EUR\",\"cancellation_reason\":\"CUSTOMER_REQUEST\",\"cancellation_type\":\"END_OF_PERIOD\",\"final_billing_date\":\"2026-03-20T23:59:59.999Z\",\"access_end_date\":\"2026-03-20T23:59:59.999Z\",\"refund_amount\":0.00,\"total_revenue_generated\":119.96,\"subscription_duration_months\":4,\"cancellation_feedback\":\"Satisfied with service, relocating abroad\",\"user_id\":\"USR-customer-service-028\",\"ip_address\":\"82.168.45.98\"}",
+  "transaction_id": "TXN-20251120-103045-5678"
+}

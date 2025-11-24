@@ -1,0 +1,37 @@
+{
+  "subscription_id": "SUB-20251120-7654",
+  "customer_id": "CUST-MH-89012",
+  "customer_name": "Lucas Van Der Berg",
+  "customer_email": "lucas.vanderberg@email.nl",
+  "subscription_date": "2025-11-20T10:30:45.789Z",
+  "subscription_type": "DIGITAL_PREMIUM",
+  "publications": [
+    {
+      "publication_id": "PUB-001",
+      "publication_name": "De Standaard",
+      "access_level": "FULL"
+    },
+    {
+      "publication_id": "PUB-005",
+      "publication_name": "Het Nieuwsblad",
+      "access_level": "FULL"
+    }
+  ],
+  "billing_cycle": "MONTHLY",
+  "subscription_amount": 29.99,
+  "currency": "EUR",
+  "payment_method": "SEPA_DIRECT_DEBIT",
+  "payment_status": "AUTHORIZED",
+  "start_date": "2025-11-20T00:00:00.000Z",
+  "end_date": "2025-12-20T23:59:59.999Z",
+  "billing_address": {
+    "street": "Herengracht 234",
+    "city": "Amsterdam",
+    "postal_code": "1016 BT",
+    "country": "Netherlands"
+  },
+  "promo_code": "WINTER2025",
+  "discount_percentage": 15,
+  "user_id": "USR-sales-015",
+  "ip_address": "82.168.45.92"
+}
