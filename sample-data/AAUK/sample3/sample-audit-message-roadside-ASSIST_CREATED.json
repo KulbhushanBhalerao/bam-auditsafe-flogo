@@ -1,0 +1,11 @@
+{
+  "audit_event": "ASSIST_CREATED",
+  "business_process_name": "AA UK Roadside Assistance",
+  "event_description": "New roadside assistance request created and patrol dispatched",
+  "event_destination": "audit-safe-kafka-topic",
+  "event_source": "roadside-assistance-api",
+  "event_status": "SUCCESS",
+  "event_timestamp": "2025-11-24T18:35:48.234Z",
+  "payload": "{\"assistance_id\":\"ASSIST-20251124-7234\",\"member_id\":\"MEM-UK-91234\",\"member_name\":\"Robert Davies\",\"member_phone\":\"+44 7700 900891\",\"membership_tier\":\"PREMIUM\",\"request_date\":\"2025-11-24T18:35:48.234Z\",\"incident_type\":\"BREAKDOWN\",\"issue_category\":\"ENGINE_OVERHEATING\",\"vehicle_details\":{\"registration\":\"KT21 PQR\",\"make\":\"BMW\",\"model\":\"3 Series\",\"year\":2021,\"color\":\"Black\"},\"breakdown_location\":{\"address\":\"A1(M) Southbound, near Stevenage\",\"latitude\":51.9012,\"longitude\":-0.2156,\"location_type\":\"A_ROAD\"},\"customer_location\":{\"latitude\":51.9015,\"longitude\":-0.2154,\"safe_location\":true},\"priority\":\"HIGH\",\"estimated_arrival_time\":\"2025-11-24T19:20:00.000Z\",\"service_provider\":\"AA Patrol\",\"patrol_id\":\"PATROL-EA-156\",\"user_id\":\"USR-dispatcher-031\",\"ip_address\":\"88.98.167.234\"}",
+  "transaction_id": "TXN-20251124-183548-7890"
+}

@@ -1,0 +1,11 @@
+{
+  "audit_event": "PATROL_DISPATCHED",
+  "business_process_name": "AA UK Roadside Assistance",
+  "event_description": "AA patrol dispatched and en route to breakdown location",
+  "event_destination": "audit-safe-kafka-topic",
+  "event_source": "roadside-assistance-api",
+  "event_status": "IN_PROGRESS",
+  "event_timestamp": "2025-11-24T18:37:22.567Z",
+  "payload": "{\"assistance_id\":\"ASSIST-20251124-7234\",\"member_id\":\"MEM-UK-91234\",\"member_name\":\"Robert Davies\",\"member_phone\":\"+44 7700 900891\",\"membership_tier\":\"PREMIUM\",\"request_date\":\"2025-11-24T18:35:48.234Z\",\"dispatch_time\":\"2025-11-24T18:37:22.567Z\",\"incident_type\":\"BREAKDOWN\",\"issue_category\":\"ENGINE_OVERHEATING\",\"vehicle_details\":{\"registration\":\"KT21 PQR\",\"make\":\"BMW\",\"model\":\"3 Series\",\"year\":2021,\"color\":\"Black\"},\"breakdown_location\":{\"address\":\"A1(M) Southbound, near Stevenage\",\"latitude\":51.9012,\"longitude\":-0.2156,\"location_type\":\"A_ROAD\"},\"patrol_details\":{\"patrol_id\":\"PATROL-EA-156\",\"patrol_name\":\"Andrew Wilson\",\"vehicle_registration\":\"AA18 KLM\",\"current_latitude\":51.8678,\"current_longitude\":-0.1987,\"distance_km\":5.6},\"estimated_arrival_time\":\"2025-11-24T18:58:00.000Z\",\"dispatch_status\":\"EN_ROUTE\",\"user_id\":\"USR-dispatch-system\",\"ip_address\":\"10.50.60.132\"}",
+  "transaction_id": "TXN-20251124-183548-7890"
+}

@@ -1,0 +1,11 @@
+{
+  "audit_event": "CASE_CLOSED",
+  "business_process_name": "AA UK Roadside Assistance",
+  "event_description": "Roadside assistance case closed and member follow-up completed",
+  "event_destination": "audit-safe-kafka-topic",
+  "event_source": "roadside-assistance-api",
+  "event_status": "COMPLETED",
+  "event_timestamp": "2025-11-24T20:45:22.789Z",
+  "payload": "{\"assistance_id\":\"ASSIST-20251124-7234\",\"member_id\":\"MEM-UK-91234\",\"member_name\":\"Robert Davies\",\"member_phone\":\"+44 7700 900891\",\"membership_tier\":\"PREMIUM\",\"request_date\":\"2025-11-24T18:35:48.234Z\",\"case_closed_time\":\"2025-11-24T20:45:22.789Z\",\"incident_type\":\"BREAKDOWN\",\"issue_category\":\"ENGINE_OVERHEATING\",\"vehicle_details\":{\"registration\":\"KT21 PQR\",\"make\":\"BMW\",\"model\":\"3 Series\",\"year\":2021,\"color\":\"Black\"},\"breakdown_location\":{\"address\":\"A1(M) Southbound, near Stevenage\",\"latitude\":51.9012,\"longitude\":-0.2156,\"location_type\":\"A_ROAD\"},\"patrol_details\":{\"patrol_id\":\"PATROL-EA-156\",\"patrol_name\":\"Andrew Wilson\"},\"service_summary\":{\"action_taken\":\"COOLANT_REFILL_TEMPORARY_FIX\",\"service_duration_minutes\":27,\"total_case_duration_minutes\":130,\"vehicle_recovered\":false,\"roadside_fix\":true,\"temporary_fix\":true},\"follow_up\":{\"member_contacted\":true,\"feedback_received\":true,\"rating\":5,\"comments\":\"Professional service, got me back on the road safely\"},\"case_status\":\"CLOSED\",\"claim_amount\":0.00,\"covered_by_membership\":true,\"user_id\":\"USR-case-management-022\",\"ip_address\":\"10.50.60.138\"}",
+  "transaction_id": "TXN-20251124-183548-7890"
+}
